@@ -23,7 +23,7 @@ body {
 } */
 
 .gray-part {
-    background: linear-gradient(180deg, #e00034, #f7f7f7);
+    background: linear-gradient(180deg, #fff, #f7f7f7);
     height: 1000px;
     width: 100vw;
     display: flex;
@@ -404,6 +404,7 @@ body {
     width: 1180px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .title-gogo-story {
@@ -482,10 +483,19 @@ body {
 
 }
 
-.big-div-left {
-    background-color: khaki;
+.big-div {
+    /* background-color: khaki; */
     padding-left: 40px;
+    display: flex;
 
+}
+
+.big-div-left-top {
+    width: 760px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .todaynews-icon {
@@ -500,4 +510,112 @@ body {
     margin-bottom: 5px;
     font-weight: 700;
     color: #407ce8;
+}
+
+.calendar {
+    background-color: #407ce8;
+    transition: all .2s ease-in-out;
+    transition-behavior: normal;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+.calendar-one-day {
+    height: 7px;
+    border-radius: 20px;
+
+}
+
+.big-div-news-container {
+
+    width: 690px;
+    height: 171px;
+}
+
+.big-div-image {
+    width: 210px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right:30px;
+}
+
+h3 {
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 700;
+    line-height: 26px !important;
+    font-size: 19px;
+    margin: 0;
+    color: #000;
+}
+
+.text-15 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #888;
+    height: 46px;
+    overflow: hidden;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+}
+.size-14{
+    width:14px;
+    height:14px;
+}
+.margin-right-30{
+    margin-right:30px;
+}
+.clock-svg{
+    width:15px;
+    height:16px;
+}
+.margin-right-10{
+    margin-right:10px;
+}
+.big-div-right{
+    width:auto;
+    height:auto;
+    padding-right: 40px;
+}
+hr{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.3;
+    border-width: 0.5px;
+}
+.tree{
+    width:25px;
+    height:30px;
+}
+.tree-text{
+    font-size: 20;
+    line-height: 26px;
+    color:#000;
+    font-weight: 700;
+}
+.share12{
+    width:12px;
+    height: 12px;
+}
+.big-div-right-image{
+    width: 290px;
+    height: 170px;
+    border-radius: 5px;
+}
+.big-div-right-news{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color:#000;
+}
+.big-div-right-share{
+    margin-top: 5px;
+
 }
