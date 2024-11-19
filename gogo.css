@@ -7,6 +7,7 @@ div {
 }
 
 body {
+    font: normal 14px / 22px Helvetica Neue, sans-serif, Arial;
     margin: 0;
     padding: 0;
     display: flex;
@@ -33,7 +34,7 @@ body {
 #whole-content {
     width: 1180px;
     height: 100%;
-    
+
 }
 
 #header-main {
@@ -537,7 +538,7 @@ body {
     width: 210px;
     height: 150px;
     border-radius: 5px;
-    margin-right:30px;
+    margin-right: 30px;
 }
 
 h3 {
@@ -563,84 +564,119 @@ h3 {
     unicode-bidi: isolate;
 
 }
-.size-14{
-    width:14px;
-    height:14px;
+
+.size-14 {
+    width: 14px;
+    height: 14px;
 }
-.margin-right-30{
-    margin-right:30px;
+
+.margin-right-30 {
+    margin-right: 30px;
 }
-.clock-svg{
-    width:15px;
-    height:16px;
+
+.clock-svg {
+    width: 15px;
+    height: 16px;
 }
-.margin-right-10{
-    margin-right:10px;
+
+.margin-right-10 {
+    margin-right: 10px;
 }
-.big-div-right{
-    width:auto;
-    height:auto;
+
+.big-div-right {
+    width: 340px;
+    height: auto;
     padding-right: 40px;
+
 }
-hr{
+
+.big-div-right-top {
+    width: 290;
+    height: auto;
+    padding-right: 40px;
+    
+}
+
+hr {
     display: flex;
     flex-direction: column;
     opacity: 0.3;
     border-width: 0.5px;
 }
-.tree{
-    width:25px;
-    height:30px;
+
+.tree {
+    width: 25px;
+    height: 30px;
 }
-.tree-text{
+
+.tree-text {
     font-size: 20;
     line-height: 26px;
-    color:#000;
+    color: #000;
     font-weight: 700;
 }
-.share12{
-    width:12px;
+
+.share12 {
+    width: 12px;
     height: 12px;
 }
-.big-div-right-image{
+
+.big-div-right-image {
     width: 290px;
     height: 170px;
     border-radius: 5px;
 }
-.big-div-right-title{
-    width:290px;
+
+.big-div-right-title {
+    width: 290px;
     height: 40px;
     overflow: hidden;
     margin-top: 10px;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color:#000;
+    color: #000;
 }
-.big-div-right-share{
+
+.big-div-right-share {
     margin-top: 5px;
 }
-.gray{
+
+.gray {
     color: #888;
 }
-.margin-right-5{
+
+.margin-right-5 {
     margin-right: 5px;
 }
-.container-trendmedee{
-    width:
-    margin-top:30px;
+
+.container-trendmedee {
+    width: 340px;
+    height: auto;
+    margin-top: 30px;
     background-color: #fdfaf5;
+    padding-right: 40px;
+    
 }
-.fire{
-    width:22px;
+
+.fire {
+    margin-left: 10px;
+    width: 22px;
     height: 26px;
 }
-.trend-medee{
+
+.trend-medee {
     padding: 30px 50px;
 }
-.trend-medee-title{
-    
+
+.trend-medee-title {
+
     font-size: 20px;
-    color:#000;
+    color: #000;
     font-weight: 700;
+}
+.trendmedee-content{
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
