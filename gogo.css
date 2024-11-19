@@ -33,8 +33,7 @@ body {
 #whole-content {
     width: 1180px;
     height: 100%;
-    background-color: rgb(17, 29, 30);
-    /*To identify the content; Must remove it later*/
+    
 }
 
 #header-main {
@@ -554,7 +553,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 15px;
     color: #888;
-    height: 46px;
+    height: 40px;
     overflow: hidden;
     display: block;
     margin-block-start: 1em;
@@ -608,7 +607,10 @@ hr{
     height: 170px;
     border-radius: 5px;
 }
-.big-div-right-news{
+.big-div-right-title{
+    width:290px;
+    height: 40px;
+    overflow: hidden;
     margin-top: 10px;
     font-weight: 500;
     font-size: 15px;
@@ -617,5 +619,28 @@ hr{
 }
 .big-div-right-share{
     margin-top: 5px;
-
+}
+.gray{
+    color: #888;
+}
+.margin-right-5{
+    margin-right: 5px;
+}
+.container-trendmedee{
+    width:
+    margin-top:30px;
+    background-color: #fdfaf5;
+}
+.fire{
+    width:22px;
+    height: 26px;
+}
+.trend-medee{
+    padding: 30px 50px;
+}
+.trend-medee-title{
+    
+    font-size: 20px;
+    color:#000;
+    font-weight: 700;
 }
