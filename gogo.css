@@ -22,7 +22,11 @@ body {
     width: 1100px;
     height: auto;
 } */
-
+img{
+    max-width: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
 .gray-part {
     background: linear-gradient(180deg, #fff, #f7f7f7);
     height: 1000px;
@@ -146,9 +150,9 @@ body {
 }
 
 .second-div-text {
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    
+    
+    
     font-size: 13px;
     color: #000;
     opacity: 0.4;
@@ -312,7 +316,7 @@ body {
 }
 
 .button-share {
-    font-family: ;
+
     font-weight: 800;
     color: #c6c6c6;
 }
@@ -490,14 +494,39 @@ body {
 
 }
 
-.big-div-left-top {
+.big-div-left {
     width: 760px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    border-right: 1px solid rgba(0, 0, 0, .06);
 }
-
+.tsaash-uzeh{
+margin-top: 20px;
+margin-bottom: 20px;
+width: 690px;
+height:auto;
+background: #f8f8f8;
+border: 1px solid #f2f2f2;
+display: block;
+text-align: center;
+padding: 20px;
+border-radius: 5px;
+font-weight: 700;
+font-size: 16px;
+color: #000;
+}
+.tsaash-uzeh-comment{
+    width:17px;
+    height:21px;
+}
+.tsaash-uzeh-font{
+    text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+}
 .todaynews-icon {
     width: 23px;
     height: 26px;
@@ -587,6 +616,7 @@ h3 {
     width: 340px;
     height: auto;
     padding-right: 40px;
+    
 
 }
 
@@ -597,12 +627,7 @@ h3 {
     
 }
 
-hr {
-    display: flex;
-    flex-direction: column;
-    opacity: 0.3;
-    border-width: 0.5px;
-}
+
 
 .tree {
     width: 25px;
@@ -651,6 +676,7 @@ hr {
 }
 
 .container-trendmedee {
+    box-sizing: border-box;
     width: 340px;
     height: auto;
     margin-top: 30px;
@@ -666,6 +692,7 @@ hr {
 }
 
 .trend-medee {
+
     padding: 30px 50px;
 }
 
